@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Unir - trabajo 2 - DesAppRed</title>
+    <link href="estilos.css" rel="stylesheet" />
+    <script src="recursos.js"></script>
+    <script src="script1.js"></script>
+</head>
+    <body> 
+        <div id="contenedor">
+            contenedor
+            <div id="header">header</div>
+            <div id="nav">nav
+                <ul id="menuP">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="accesoSistema.html">ingreso usuarios</a></li>
+                    <li><a href="registrousuario.html">usuarios</a></li>
+                    <li><a href="registroProducto.html">productos</a></li>
+                    <li><a href="registroFacturas.html">facturacion</a></li>
+                </ul>
+            
+            
+            </div>
+            <div id="contenido">
+                <div id="section">
+                    section
+                    <article class="articulo">
+                        palindromo
+                        <form action="/" method="#">
+                            <label for="palindromo">palindromo:</label><br>
+                            <input type="text" id="textPalindromo" name="palindromo" value="" placeholder="escriba una palabra"><br>
+                            <input id="enviarPal" type="button" value="enviar" onclick="esPalindromo()">
+                            <input type="reset" value="borrar">
+                        </form>
+                    </article>
+                    <article class="articulo">
+                        numeros
+                        <form action="/" method="#">
+                            <label for="numero1">numero 1:</label><br>
+                            <input type="text" id="numero1" name="numero1" value="" placeholder="escriba el primer numero"><br>
+                            <label for="numero2">numero 2:</label><br>
+                            <input type="text" id="numero2" name="numero2" value="" placeholder="escriba el segundo numero"><br>
+                            <input id="enviarPal" type="button" value="enviar" onclick="esMayor()">
+                            <input type="reset" value="borrar">
+                        </form>
+
+                    </article>
+                    <article class="articulo">
+                        contar Vocales
+                        <form action="/" method="#">
+                            <label for="contarVolcales">escriba una frase:</label><br>
+                            <input type="text" id="contarVocales" name="contarVocales" value="" placeholder="escriba una frase"><br>
+                            <input type="button" value="enviar" onclick="cuentaVocales()">
+                            <input type="reset" value="borrar">
+                        </form>
+                    </article>
+                    <article class="articulo">
+                        cuantas vocales
+                        <form action="/" method="#">
+                            <label for="buscarVocales">escriba una frase:</label><br>
+                            <input type="text" id="buscarVocales" name="buscarVocales" value="" placeholder="escriba una frase"><br>
+                            <input type="button" value="enviar" onclick="esVocal()">
+                            <input type="reset" value="borrar">
+                        </form>
+                    </article>
+                    </article>
+
+                </div>
+                <div id="aside">aside</div>
+                    <input type="button" onclick="CambioEstilo()" value="cambiar">
+            </div>
+            <div id="footer">footer</div>
+        </div>
+    </body>
+</html>

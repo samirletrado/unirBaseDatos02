@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Unir - trabajo 2 - DesAppRed</title>
+    <link href="estilos.css" rel="stylesheet" />
+    <script src="recursos.js"></script>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="header">
+            <h1>Sistema Basico Inicial - Curso Mintic2022 - Unab</h1>
+        </div>
+        <div id="nav">
+            <ul id="menuP">
+                <li><a href="index.html">home</a></li>
+                <li><a href="accesoSistema.html">ingreso usuarios</a></li>
+                <li><a href="registrousuario.html">usuarios</a></li>
+                <li><a href="registroProducto.html">productos</a></li>
+                <li><a href="registroFacturas.html">facturacion</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            <div id="section">
+                <h3>Registro de Productos</h3><br />
+                <p>Por favor digite los datos del producto a registrar</p><br />
+                <form action="#" method="post">
+                    <label for="nomProducto">Nombre del Producto:</label><br>
+                    <input type="text" id="nomProducto" name="nomProducto" value=""><br>
+                    <label for="unidadProd">Unidad del Producto:</label><br>
+                    <input type="text" id="unidadProd" name="unidadProd" value=""><br>
+                    <label for="precio">Precio Producto:</label><br>
+                    <input type="number" id="presio" name="precio" value=""><br><br>
+                    <input type="submit" value="enviar">
+                    <input type="button" onclick="CambioEstilo()" value="cambiar">
+
+                </form>
+
+            </div>
+
+        </div>
+        <div id="footer">
+            <h3>Desarrollado por Samir Letrado - Todos los derechos reservados - 2021</h3><br />
+        </div>
+    </div>
+
+</body>
+
+</html>

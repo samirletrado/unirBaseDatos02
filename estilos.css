@@ -1,0 +1,129 @@
+﻿*{
+    margin:0;
+    padding : 0;
+}
+
+#contenedor{
+    width : 1000px;
+    height : 1500px;
+    background-color :aliceblue;
+    margin : 0.5em;
+    padding : 0.5em;
+
+}
+
+#header {
+    width: 98%;
+    height: 16%;
+    background-color: darkcyan;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#nav {
+    width: 98%;
+    height: 6%;
+    background-color :aqua;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#contenido {
+    width: 98%;
+    height: 55%;
+    background-color: aliceblue;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+#footer {
+    width: 98%;
+    height:10%;
+    background-color:darkcyan;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#section {
+    width: 68%;
+    height: 95%;
+    background-color :aquamarine;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    float:left;
+    
+
+}
+
+#aside {
+    width: 26%;
+    height: 95%;
+    background-color :burlywood;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    float:right;
+}
+
+.articulo {
+    width: 96%;
+    height: 18%;
+    background-color:blueviolet;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    
+}
+
+h1{
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    text-align:center;
+    margin-top : 30px;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    text-align: left;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    //margin-top: 30px;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left: 350px;
+   //align-content:center;
+}
+
+
+li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
